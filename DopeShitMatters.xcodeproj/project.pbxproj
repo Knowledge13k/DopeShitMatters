@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0A98C025C727A300507123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A98BF25C727A300507123 /* AppDelegate.swift */; };
-		DB0A98C225C727A300507123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A98C125C727A300507123 /* SceneDelegate.swift */; };
+		8E42CB946BDD9EDC4011DB31 /* Pods_DopeShitMatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE5AA97ECB03E9ADE0B770 /* Pods_DopeShitMatters.framework */; };
 		DB0A98C425C727A300507123 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A98C325C727A300507123 /* HomeViewController.swift */; };
 		DB0A98C725C727A300507123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0A98C525C727A300507123 /* Main.storyboard */; };
 		DB0A98C925C727A500507123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0A98C825C727A500507123 /* Assets.xcassets */; };
@@ -27,12 +26,18 @@
 		DB0A990925C72BFC00507123 /* RelatedSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A990825C72BFC00507123 /* RelatedSearchViewController.swift */; };
 		DB0A990C25C72C4100507123 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A990B25C72C4100507123 /* PostEditorViewController.swift */; };
 		DB0A990F25C72C6200507123 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A990E25C72C6200507123 /* PublishPostViewController.swift */; };
+		DB0A993B25C7499900507123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A993925C7499800507123 /* SceneDelegate.swift */; };
+		DB0A993C25C7499900507123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A993A25C7499900507123 /* AppDelegate.swift */; };
+		DB0A994825C74DDD00507123 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB0A994725C74DDD00507123 /* GoogleService-Info.plist */; };
+		DB0A995125C753A900507123 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A995025C753A900507123 /* DatabaseManager.swift */; };
+		DB0A995425C754B600507123 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A995325C754B600507123 /* AuthManager.swift */; };
+		DB0A995725C7553D00507123 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0A995625C7553D00507123 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36CE5AA97ECB03E9ADE0B770 /* Pods_DopeShitMatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopeShitMatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56E4400C9D41CB10764E478 /* Pods-DopeShitMatters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopeShitMatters.debug.xcconfig"; path = "Target Support Files/Pods-DopeShitMatters/Pods-DopeShitMatters.debug.xcconfig"; sourceTree = "<group>"; };
 		DB0A98BC25C727A300507123 /* DopeShitMatters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DopeShitMatters.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB0A98BF25C727A300507123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB0A98C125C727A300507123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB0A98C325C727A300507123 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB0A98C625C727A300507123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB0A98C825C727A500507123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +57,13 @@
 		DB0A990825C72BFC00507123 /* RelatedSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedSearchViewController.swift; sourceTree = "<group>"; };
 		DB0A990B25C72C4100507123 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		DB0A990E25C72C6200507123 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		DB0A993925C7499800507123 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB0A993A25C7499900507123 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0A994725C74DDD00507123 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB0A995025C753A900507123 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		DB0A995325C754B600507123 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		DB0A995625C7553D00507123 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		EC15D0BF9FD7350DBA0C872A /* Pods-DopeShitMatters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopeShitMatters.release.xcconfig"; path = "Target Support Files/Pods-DopeShitMatters/Pods-DopeShitMatters.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E42CB946BDD9EDC4011DB31 /* Pods_DopeShitMatters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8D2D523D5525637E8FFCDB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CE5AA97ECB03E9ADE0B770 /* Pods_DopeShitMatters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D189081E41806F7A9A233A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B56E4400C9D41CB10764E478 /* Pods-DopeShitMatters.debug.xcconfig */,
+				EC15D0BF9FD7350DBA0C872A /* Pods-DopeShitMatters.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB0A98B325C727A300507123 = {
 			isa = PBXGroup;
 			children = (
 				DB0A98BE25C727A300507123 /* DopeShitMatters */,
 				DB0A98BD25C727A300507123 /* Products */,
+				D189081E41806F7A9A233A06 /* Pods */,
+				B8D2D523D5525637E8FFCDB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +153,12 @@
 		DB0A98D725C727F200507123 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DB0A98BF25C727A300507123 /* AppDelegate.swift */,
-				DB0A98C125C727A300507123 /* SceneDelegate.swift */,
+				DB0A993A25C7499900507123 /* AppDelegate.swift */,
+				DB0A993925C7499800507123 /* SceneDelegate.swift */,
+				DB0A994725C74DDD00507123 /* GoogleService-Info.plist */,
+				DB0A995025C753A900507123 /* DatabaseManager.swift */,
+				DB0A995325C754B600507123 /* AuthManager.swift */,
+				DB0A995625C7553D00507123 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,14 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				DB0A98F025C72A9E00507123 /* Onboarding  */,
-				DB0A98F825C72AFA00507123 /* PostViewController.swift */,
-				DB0A990125C72BB800507123 /* EditProfileViewController.swift */,
-				DB0A98FB25C72B5C00507123 /* SettingsViewController.swift */,
-				DB0A98FE25C72B7400507123 /* ListViewController.swift */,
-				DB0A990425C72BE600507123 /* SearchViewController.swift */,
-				DB0A990825C72BFC00507123 /* RelatedSearchViewController.swift */,
-				DB0A990B25C72C4100507123 /* PostEditorViewController.swift */,
-				DB0A990E25C72C6200507123 /* PublishPostViewController.swift */,
+				DB0A994A25C752E400507123 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -173,6 +202,21 @@
 			path = "Onboarding ";
 			sourceTree = "<group>";
 		};
+		DB0A994A25C752E400507123 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A98F825C72AFA00507123 /* PostViewController.swift */,
+				DB0A990125C72BB800507123 /* EditProfileViewController.swift */,
+				DB0A98FB25C72B5C00507123 /* SettingsViewController.swift */,
+				DB0A98FE25C72B7400507123 /* ListViewController.swift */,
+				DB0A990425C72BE600507123 /* SearchViewController.swift */,
+				DB0A990825C72BFC00507123 /* RelatedSearchViewController.swift */,
+				DB0A990B25C72C4100507123 /* PostEditorViewController.swift */,
+				DB0A990E25C72C6200507123 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0A98D025C727A500507123 /* Build configuration list for PBXNativeTarget "DopeShitMatters" */;
 			buildPhases = (
+				2711E7915C84770E02D128E6 /* [CP] Check Pods Manifest.lock */,
 				DB0A98B825C727A300507123 /* Sources */,
 				DB0A98B925C727A300507123 /* Frameworks */,
 				DB0A98BA25C727A300507123 /* Resources */,
+				5C902A4D2A84A19FD2230DC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,12 +277,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0A98CC25C727A500507123 /* LaunchScreen.storyboard in Resources */,
+				DB0A994825C74DDD00507123 /* GoogleService-Info.plist in Resources */,
 				DB0A98C925C727A500507123 /* Assets.xcassets in Resources */,
 				DB0A98C725C727A300507123 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2711E7915C84770E02D128E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DopeShitMatters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C902A4D2A84A19FD2230DC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopeShitMatters/Pods-DopeShitMatters-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopeShitMatters/Pods-DopeShitMatters-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DopeShitMatters/Pods-DopeShitMatters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB0A98B825C727A300507123 /* Sources */ = {
@@ -245,21 +334,24 @@
 			files = (
 				DB0A990225C72BB800507123 /* EditProfileViewController.swift in Sources */,
 				DB0A98DC25C728E900507123 /* ExploreViewController.swift in Sources */,
+				DB0A993C25C7499900507123 /* AppDelegate.swift in Sources */,
 				DB0A990F25C72C6200507123 /* PublishPostViewController.swift in Sources */,
 				DB0A98E325C729AC00507123 /* CameraViewController.swift in Sources */,
 				DB0A98FF25C72B7400507123 /* ListViewController.swift in Sources */,
 				DB0A990925C72BFC00507123 /* RelatedSearchViewController.swift in Sources */,
+				DB0A995725C7553D00507123 /* StorageManager.swift in Sources */,
 				DB0A990C25C72C4100507123 /* PostEditorViewController.swift in Sources */,
+				DB0A995125C753A900507123 /* DatabaseManager.swift in Sources */,
 				DB0A98FC25C72B5C00507123 /* SettingsViewController.swift in Sources */,
 				DB0A98C425C727A300507123 /* HomeViewController.swift in Sources */,
 				DB0A98F625C72AC700507123 /* RegistrationViewController.swift in Sources */,
 				DB0A98F925C72AFA00507123 /* PostViewController.swift in Sources */,
+				DB0A993B25C7499900507123 /* SceneDelegate.swift in Sources */,
+				DB0A995425C754B600507123 /* AuthManager.swift in Sources */,
 				DB0A990525C72BE600507123 /* SearchViewController.swift in Sources */,
 				DB0A98E625C729CC00507123 /* NotificationsViewController.swift in Sources */,
 				DB0A98F225C72AAF00507123 /* LoginViewController.swift in Sources */,
 				DB0A98E925C729DA00507123 /* ProfileViewController.swift in Sources */,
-				DB0A98C025C727A300507123 /* AppDelegate.swift in Sources */,
-				DB0A98C225C727A300507123 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +495,7 @@
 		};
 		DB0A98D125C727A500507123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56E4400C9D41CB10764E478 /* Pods-DopeShitMatters.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -413,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = UnspoknKonversation.DopeShitMatters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knowledge.DopeShitMatters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,6 +515,7 @@
 		};
 		DB0A98D225C727A500507123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC15D0BF9FD7350DBA0C872A /* Pods-DopeShitMatters.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,7 +526,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = UnspoknKonversation.DopeShitMatters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Knowledge.DopeShitMatters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
